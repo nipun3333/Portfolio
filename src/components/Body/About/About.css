@@ -1,0 +1,21 @@
+.aboutMe{
+    display: flex;
+    width: 80%;
+    /* background-color: red; */
+    justify-content: center;
+    margin: auto auto;
+    flex: 1;
+    padding: 12px;
+    position: relative;
+    align-items: center;
+}
+.lineAbout{
+    width: 80%;
+    margin: 5px;
+}
+
+.prof{
+    display: flex;
+    /* background-color: red; */
+    justify-content: center;
+}
