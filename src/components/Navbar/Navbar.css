@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    width: 100%;
+    /* background-color: red; */
+    justify-content: space-between;
+    flex: 1;
+    padding: 12px;
+    position: relative;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.menuIcon{
+    font-size: 24px;
+}
+
+.mobile-menu{
+    display: None;
+}
+
+.web-menu{
+    display: flex;
+}
+
+@media only screen and (max-width: 800px) {
+    .mobile-menu{
+        display: flex;
+    }
+    .web-menu{
+        display: None;
+    }
+}
