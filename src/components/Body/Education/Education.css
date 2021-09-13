@@ -1,0 +1,10 @@
+.education{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+
+.lineEdu{
+    width: 80%;
+    margin: auto auto;
+}
